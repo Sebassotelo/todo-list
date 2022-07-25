@@ -47,6 +47,7 @@ function App() {
       </div> 
 
       </div>
+     <p className='app__p'>Creado por <a href="https://portfolio-tan-delta.vercel.app/" className='app__a' target={'_blank'}><span>Sebas Sotelo</span></a>. 2022</p>
       
     </div>
   );

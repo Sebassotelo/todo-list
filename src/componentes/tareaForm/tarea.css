@@ -43,3 +43,19 @@
 .form__boton:hover{
     background-color: antiquewhite;
 }
+
+@media (max-width: 900px) {
+    .form{
+        width: 95%;
+        grid-template-columns: 1fr 80px;
+    }
+    .form__input{
+        height: 45px;
+    }
+    .form__boton {
+        height: 45px;
+        width: 80px;
+    }
+
+    
+  }

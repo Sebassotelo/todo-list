@@ -11,7 +11,8 @@ const manejarForm = (event) => {
 
 const manejarEnvio = (event) => {
     event.preventDefault();
-    props.nuevaTarea(input)
+    props.nuevaTarea(input);
+    setInput('');
 }
 
   return (

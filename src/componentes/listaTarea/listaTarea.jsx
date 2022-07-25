@@ -39,8 +39,10 @@ function ListaTarea(props) {
     <div className='lista__tarea__container'>
 
       { !edit ?
-        <div className={hecho ? 'listaTareaCompleta' :'listaTarea'} onClick={completado}>
-        {props.lista}
+        <div className={hecho ? 'listaTarea completa' :'listaTarea'}>
+        <p className='lista__p' onClick={completado}><span>{props.lista}</span></p>
+        
+        
         <FiEdit2  className='icon edit' onClick={editar}/>
         <AiOutlineClose className='icon clear' onClick={borrarTarea}/>
 

@@ -6,6 +6,7 @@
 .App {
   text-align: center;
   display: grid;
+  grid-template-rows: 1fr 60px;
   height: 100vh;
   width: 100%;
   align-items: center;
@@ -33,4 +34,18 @@
   grid-gap: 10px;
   align-items: center;
   justify-items: center;
+}
+.app__p{
+  user-select: none;
+}
+.app__a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+@media (max-width: 900px) {
+  .app__container {
+    min-width: 350px;
+  }
 }
