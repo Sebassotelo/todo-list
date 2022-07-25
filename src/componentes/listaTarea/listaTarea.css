@@ -1,0 +1,77 @@
+.lista__tarea__container{
+    width: 80%;
+    height: 40px;
+}
+.listaTarea{
+    width: 100%;
+    min-height: 100%;
+    background-color: aliceblue;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 15px;
+    grid-template-columns: 1fr 30px 30px;
+    font-weight: 600;
+    user-select: none;
+}
+.listaTareaCompleta{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(156, 205, 248);
+    text-decoration: line-through;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 15px;
+    grid-template-columns: 1fr 30px 30px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.icon{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.edit{
+    grid-column: 2/3;
+}
+
+.clear {
+    grid-column: 3/4;
+}
+
+.form__edit{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 60px;
+}
+
+.edit__input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-self: end;
+    padding: 0;
+    text-align: center;
+}
+
+.edit__save {
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    padding: 0;
+    transition-duration: .3s;
+}
+
+.edit__save:hover {
+    background-color: antiquewhite;
+}
